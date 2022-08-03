@@ -12,6 +12,11 @@
 * 購買連結：https://forms.gle/Pn5Pygji2yAFHeG47
 * 聯絡資訊：[FB粉絲專頁](https://www.facebook.com/NaichenCon/)
 
+## Development Setup
+
+1. Follow [Sparkfun Pro Micro Hookup Guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide) to install required board information.
+2. Follow the instruction in [Joystick Library](https://github.com/MHeironimus/ArduinoJoystickLibrary).
+
 # 軟體更新紀錄
 
 :::danger
