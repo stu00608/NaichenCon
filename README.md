@@ -1,81 +1,41 @@
 # NaichenCon 使用手冊
 
-:::warning
-**目錄**
-[TOC]
-:::
-
 # SDVX controller 第二代
 
 * 商品型號：NC-2
 * 商品定價： $3300↓ NTD (簡約款) / $3300 NTD (基本款) / $3700 NTD (升級款)
-* 購買連結：https://forms.gle/Pn5Pygji2yAFHeG47
+* 購買連結：**Not available now**
 * 聯絡資訊：[FB粉絲專頁](https://www.facebook.com/NaichenCon/)
+
+* For some of the parts still in stock, if you want to buy it please contact me via [Facebook fanpage](https://www.facebook.com/NaichenCon/) or my [email](mailto:kuya5220@gmail.com)
 
 ## Development Setup
 
 1. Follow [Sparkfun Pro Micro Hookup Guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide) to install required board information.
 2. Follow the instruction in [Joystick Library](https://github.com/MHeironimus/ArduinoJoystickLibrary).
 
-# 軟體更新紀錄
-
-:::danger
-目前最新版本 : v2.1
-:::
-
-* 2020/10/10 v2.1 ***新增介面"旋鈕反向"**。
-
 # 模式介紹
 
 NaichenCon對應**兩種輸入模式**與**燈光開關**
 
-:::info
-在接上電腦前請先按住兩顆FX鍵(黃鍵)，接上後會看到Start + BT_A + BT_B亮起來，此時代表已經進入模式調整介面(以下簡稱設定)。
-:::
+* 在接上電腦前請先按住兩顆FX鍵(黃鍵)，接上後會看到Start + BT_A + BT_B亮起來，此時代表已經進入模式調整介面(以下簡稱設定)。
 
 ### 按鍵燈開關
 
-在設定按下Start鍵會開/關每一顆按鍵的LED燈，如果使用的環境較暗，可以手動把LED燈關閉，比較保護眼睛:D。
-當你想要繼續有LED的效果時，只要拔掉重新進入設定再按一次Start鍵就會開啟了。
+* 在設定按下Start鍵會開/關每一顆按鍵的LED燈，如果使用的環境較暗，可以手動把LED燈關閉，比較保護眼睛:D。
+* 當你想要繼續有LED的效果時，只要拔掉重新進入設定再按一次Start鍵就會開啟了。
 
 ### 輸入類型介紹
 
-在設定下會有BT_A、BT_B亮起，分別對應以下A模式、B模式輸入：
+* 在設定下會有BT_A、BT_B亮起，分別對應以下A模式、B模式輸入：
 
-* A模式：白鍵、黃鍵、Start為鍵盤的a~g、旋鈕為滑鼠的X/Y軸(左旋鈕為Y軸、右旋鈕是X軸)
+    * A模式：白鍵、黃鍵、Start為鍵盤的a~g、旋鈕為滑鼠的X/Y軸(左旋鈕為Y軸、右旋鈕是X軸)
 
-* B模式：白鍵、黃鍵、Start為Joystick(類似PS4的輸入)的0號到6號、旋鈕為Joystick(類似PS4的輸入)的X/Y軸(左旋鈕為Y軸、右旋鈕是X軸)
+    * B模式：白鍵、黃鍵、Start為Joystick(類似PS4的輸入)的0號到6號、旋鈕為Joystick(類似PS4的輸入)的X/Y軸(左旋鈕為Y軸、右旋鈕是X軸)
 
 ### 旋鈕反轉 *10/10新增
 
-在設定下會有BT_C亮起，若當前的右旋鈕是滑鼠x軸、左旋鈕是滑鼠y軸，按下BT_C鍵即可交換，變成右旋鈕是滑鼠y軸、左旋鈕是滑鼠x軸，重新進到設定再按一次就會變回來。此設定在Joystick模式也對應。
-
-:::info
-常見使用的模擬器：[K-shoot Mania](https://www.kshootmania.com/)...等等，都可以支援喔~
-:::
-
-### 保固
-
-* 本手台之保固為下訂日起算7個月(也就是到您手上後約**半年期間**)。
-* 非人為造成之故障排除在保固內皆不收費。
-* 人為造成之故障例如：面板碎裂、按鍵碎裂、電路板接頭損壞...等等在保固內收取零件8折之費用。
-
-:::success
-寄送資料 (7-11店到店)
-
-姓名：---
-
-手機：---
-
-E-mail：kuya5220@gmail.com
-
-門市名稱：君品門市 (淡水)
-:::
-
-
-### 注意事項
-
-1. 面板採用**磁吸式**固定，在搬運的時候請注意不要只拎著面板喔!。
+* 在設定下會有BT_C亮起，若當前的右旋鈕是滑鼠x軸、左旋鈕是滑鼠y軸，按下BT_C鍵即可交換，變成右旋鈕是滑鼠y軸、左旋鈕是滑鼠x軸，重新進到設定再按一次就會變回來。此設定在Joystick模式也對應。
 
 ### 常見問題
 
